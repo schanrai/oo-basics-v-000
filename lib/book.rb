@@ -32,7 +32,10 @@ class Book
   end
 
   def turn_page=(argument)
-    puts argument
+    puts "#{argument}"
+  end
+
+  def turn_page
   end
 
 end
