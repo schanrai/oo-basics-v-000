@@ -44,7 +44,7 @@ class Book
 end
 
 class Shoe
-  attr_accessor :brand, :color, :size, :material
+  attr_accessor :brand, :color, :size, :material, :condition
 
   def initialize(brand)
     @brand = brand
