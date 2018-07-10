@@ -1,9 +1,9 @@
 class Book
-  def initialize(book_title)
+  def initialize(book_title ="And Then There Were None")
     @title = book_title
   end
 
-  def title=(book_title)
+  def title
     @title = book_title
   end
 
