@@ -31,8 +31,8 @@ class Book
     @genre
   end
 
-  def turn_page
-    puts "Flipping the page...wow, you read fast!"
+  def turn_page=(argument)
+    puts "#{argument}"
   end
-  
+
 end
