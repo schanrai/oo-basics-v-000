@@ -4,7 +4,6 @@ class Book
   end
 
   def title
-    @title = book_title
   end
 
 end
